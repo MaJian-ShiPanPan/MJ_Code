@@ -2,5 +2,5 @@
 int main()
 {
 	std::cout << "hello" << std::endl;
-	return 0;
+	return 0;是发疯
 }
