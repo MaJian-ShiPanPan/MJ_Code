@@ -362,5 +362,24 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-D:/MJ_Code/bin/*
-x64/*
+# C++编译生成文件
+*.o
+*.obj
+*.exe
+*.out
+*.dSYM/
+*.ilk
+*.pdb
+*.ipdb
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+
+# 可执行文件和run文件夹
+run/*
+
+# 保留.cpp和.md文件
+!*.cpp
+!*.md
